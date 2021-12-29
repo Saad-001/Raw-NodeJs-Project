@@ -1,0 +1,16 @@
+{
+  "name": "raw-node-api-project",
+  "version": "1.0.0",
+  "description": "Learning Node Js",
+  "main": "index.js",
+  "scripts": {
+    "start": "set ENV_NAME=staging&&nodemon index",
+    "production": "set ENV_NAME=production&&nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sa'ad",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
